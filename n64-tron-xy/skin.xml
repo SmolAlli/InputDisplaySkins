@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin name="Tron-XY" author="Aliensqueakytoy, SmolAlli" type="n64">
+    <button name="z" image="Z.png" x="114" y="88" width="48" height="16" />
+    <button name="r" image="R.png" x="186" y="7" width="86" height="13" />
+    <stick xname="stick_x" yname="stick_y" image="joystick.png" x="24" y="31" width="50" height="50" xrange="35" yrange="35" />
+
+    <!-- X and Y values -->
+    <analogtext name="stick_x" x="30" y="113" size="18" font="Arial" color="#ffffff" range="128" />
+    <analogtext name="stick_y" x="110" y="113" size="18" font="Arial" color="#ffffff" range="128" />
+
+    <!-- White -->
+    <background name="White" image="background.png" />
+
+    <button name="a" image="button.png" x="198" y="70" width="30" height="30" target="White" />
+    <button name="b" image="button.png" x="175" y="34" width="30" height="30" target="White" />
+    <button name="start" image="button.png" x="122" y="24" width="30" height="30" target="White" />
+
+    <button name="cup" image="button.png" x="266" y="30" width="26" height="26" target="White" />
+    <button name="cdown" image="button.png" x="266" y="79" width="26" height="26" target="White" />
+    <button name="cleft" image="button.png" x="240" y="55" width="28" height="26" target="White" />
+    <button name="cright" image="button.png" x="292" y="55" width="26" height="26" target="White" />
+
+    <!-- Coloured -->
+    <background name="Coloured" image="background-c.png" />
+
+    <button name="a" image="Abutton.png" x="198" y="70" width="30" height="30" target="Coloured" />
+    <button name="b" image="Bbutton.png" x="175" y="34" width="30" height="30" target="Coloured" />
+    <button name="start" image="StartButton.png" x="122" y="24" width="30" height="30" target="Coloured" />
+
+    <button name="cup" image="Cbutton.png" x="266" y="30" width="26" height="26" target="Coloured" />
+    <button name="cdown" image="Cbutton.png" x="266" y="79" width="26" height="26" target="Coloured" />
+    <button name="cleft" image="Cbutton.png" x="240" y="55" width="28" height="26" target="Coloured" />
+    <button name="cright" image="Cbutton.png" x="292" y="55" width="26" height="26" target="Coloured" />
+</skin>

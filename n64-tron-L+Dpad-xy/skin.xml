@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin name="Tron-L+Dpad" author="Quills, SmolAlli" type="n64">
+
+
+    <!-- X and Y values -->
+    <analogtext name="stick_x" x="30" y="113" size="18" font="Arial" color="#ffffff" range="128" />
+    <analogtext name="stick_y" x="110" y="113" size="18" font="Arial" color="#ffffff" range="128" />
+
+    <button name="l" image="L.png" x="13" y="7" width="48" height="16" />
+    <button name="z" image="Z.png" x="184" y="88" width="48" height="16" />
+    <button name="r" image="R.png" x="256" y="8" width="86" height="13" />
+
+    <button name="up" image="D-down-up.png" height="17" width="14" y="60" x="30"/>
+    <button name="down" image="D-down-up.png" height="17" width="14" y="90" x="30"/>
+    <button name="left" image="D-left-right.png" height="14" width="17" y="76" x="14"/>
+    <button name="right" image="D-left-right.png" height="14" width="17" y="76" x="43"/>
+
+    <stick xname="stick_x" yname="stick_y" image="joystick.png" x="94" y="31" width="50" height="50" xrange="30" yrange="30" />
+
+    <!-- White -->
+    <background name="White" image="background.png" />
+
+    <button name="a" image="button.png" x="268" y="70" width="30" height="30" target="White" />
+    <button name="b" image="button.png" x="245" y="34" width="30" height="30" target="White" />
+    <button name="start" image="button.png" x="192" y="24" width="30" height="30" target="White" />
+
+    <button name="cup" image="button.png" x="336" y="30" width="26" height="26" target="White" />
+    <button name="cdown" image="button.png" x="336" y="79" width="26" height="26" target="White" />
+    <button name="cleft" image="button.png" x="310" y="55" width="28" height="26" target="White" />
+    <button name="cright" image="button.png" x="362" y="55" width="26" height="26" target="White" />
+
+    <!-- Coloured -->
+    <background name="Coloured" image="background-c.png" />
+
+    <button name="a" image="Abutton.png" x="268" y="70" width="30" height="30" target="Coloured" />
+    <button name="b" image="Bbutton.png" x="245" y="34" width="30" height="30" target="Coloured" />
+    <button name="start" image="StartButton.png" x="192" y="24" width="30" height="30" target="Coloured" />
+
+    <button name="cup" image="Cbutton.png" x="336" y="30" width="26" height="26" target="Coloured" />
+    <button name="cdown" image="Cbutton.png" x="336" y="79" width="26" height="26" target="Coloured" />
+    <button name="cleft" image="Cbutton.png" x="310" y="55" width="28" height="26" target="Coloured" />
+    <button name="cright" image="Cbutton.png" x="362" y="55" width="26" height="26" target="Coloured" />
+
+
+
+
+</skin>
